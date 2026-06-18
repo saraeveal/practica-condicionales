@@ -2,6 +2,7 @@
 let vidas = 2;
 let puntaje = 400;
 
+
 // Operadores ternarios
 let estado =
     (vidas > 0)
@@ -13,6 +14,15 @@ let mensajePuntaje =
     ? "¡Nuevo récord! 🏆"
     : "Sigue sumando 💪";
 
+let rango = 
+    (puntaje >= 2000) 
+    ? "Maestro"
+    : (puntaje >=1000)
+        ?"Avanzado"
+        : "Novato";
+
 // Mostrar resultados
 console.log(estado);
 console.log(mensajePuntaje);
+console.log(rango);
+
