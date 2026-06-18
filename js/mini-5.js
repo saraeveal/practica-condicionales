@@ -1,6 +1,6 @@
 // Estado del jugador
 let vidas = 2;
-let puntaje = 400;
+let puntaje = 1000;
 
 
 // Operadores ternarios
